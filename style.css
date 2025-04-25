@@ -8,8 +8,20 @@ body {
 }
 
 .header-1 {
-    display: flex;
+    display: block; /* Change to block for proper alignment */
     position: relative;
-    left: 1px;
-    top: auto;
+    text-align: left; /* Align text to the left */
+    margin-right: 1700px; /* Remove the right margin */
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: #000; /* Change to black */
+    border: none;
+    margin: 5; /* Remove margin for better alignment */
+}
+
+a{
+    text-decoration: none;
 }
