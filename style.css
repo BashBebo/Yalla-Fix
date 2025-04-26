@@ -19,18 +19,43 @@ header {
     background-color: rgb(1, 163, 1); /* Green header */
     color: rgb(0, 0, 0);
     width: 100vw; /* Make sure it spans the full width */
-    padding: 1rem 2rem; /* Top/bottom + left/right padding */
+    padding: 1% 2rem; /* Top/bottom padding increased to 2% */
     position: fixed;
     top: 0;
     left: 0;
     z-index: 10;
     box-sizing: border-box; /* Ensures padding doesn’t mess with width */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.header-1 {
+.header-welcometext {
+    font-size: 1.5rem; /* Adjust as needed */
+    font-weight: bold;
+    color: #000000; /* Black text */
     display: block;
-    text-align: left;
-    margin: 0; /* Remove weird margin */
+}
+
+.Nav-Bar_Hcd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    gap: 1rem; /* Keep some gap between items */
+    align-self: center;
+    bottom: 40%;
+    left: 800px;
+    transition: transform 0.3s ease;
+}
+
+.Nav-Bar_Hcd a {
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.Nav-Bar_Hcd a:hover {
+    transform: scale(1.1); /* Slightly enlarge the link on hover */
 }
 
 hr {
