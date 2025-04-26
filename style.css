@@ -13,12 +13,12 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(135deg, #f0f4f8, #d9e4f5);
+    background: linear-gradient(160deg, #cdecce, #9ec57c); 
     min-height: 100vh;
 }
 
 header {
-    background-color: rgb(1, 163, 1); /* Green header */
+    background-color: rgb(59, 201, 59); /* Green header */
     color: rgb(0, 0, 0);
     width: 100vw; /* Make sure it spans the full width */
     padding: 1% 2rem; /* Top/bottom padding increased to 2% */
@@ -33,7 +33,7 @@ header {
 .header-welcometext {
     font-size: 1.5rem; /* Adjust as needed */
     font-weight: bold;
-    color: #000000; /* Black text */
+    color: #272727; /* Black text */
     display: block;
 }
 
@@ -55,7 +55,7 @@ header {
 
 .Nav-Bar_Hcd a {
     transition: transform 0.3s ease; /* Smooth scaling effect */
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 .Nav-Bar_Hcd a i { /* Icons for font awesome editing basically really good tool*/
@@ -64,8 +64,8 @@ header {
 
 .Nav-Bar_Hcd a:hover {
     transform: scale(1.2); /* Slightly enlarge the link on hover */
-    color: #00d9ff;
-    text-shadow: 0 0 10px
+    color: #EEA23D;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add subtle text shadow */
 }
 
 hr {
