@@ -45,22 +45,27 @@ header {
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 1.1rem;
-    gap: 1rem; /* Keep some gap between items */
+    gap: 1.3rem; /* Keep some gap between items */
     align-self: center;
-    bottom: 40%;
-    left: 1640px;
-    transition: transform 0.5s ease;
+    bottom: 35%;
+    left: 1700px;
+    transition: transform 0.3s ease;
     
 }
 
 .Nav-Bar_Hcd a {
-    transition: transform 0.5s ease; /* Smooth scaling effect */
-    color: #d8d8d8;
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+    color: #f0f0f0;
+}
+
+.Nav-Bar_Hcd a i { /* Icons for font awesome editing basically really good tool*/
+    font-size: 24px;
 }
 
 .Nav-Bar_Hcd a:hover {
-    transform: scale(1.1); /* Slightly enlarge the link on hover */
-    color: #000;
+    transform: scale(1.2); /* Slightly enlarge the link on hover */
+    color: #00d9ff;
+    text-shadow: 0 0 10px
 }
 
 hr {
