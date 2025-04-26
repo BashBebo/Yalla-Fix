@@ -86,3 +86,11 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.Mission-Text {
+    max-width: 800px; /* Adjust this value to control the width */
+    margin: 0 auto; /* This centers the container */
+    padding: 20px;
+    text-align: center; /* Center-aligns the text */
+    line-height: 1.6; /* Improves readability */
+}
