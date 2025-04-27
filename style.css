@@ -138,19 +138,19 @@ a {
 }
 
 .story-card1, .story-card2, .story-card3 {
-    background: linear-gradient(135deg, #068c5a, #034f35);
+    display: inline-flex; /* Make the cards inline and flexible */
+    background: linear-gradient(135deg, #48c586, #02632b);
     border-radius: 10px;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
     padding: 20px;
     margin: 10px;
-    width: 300px; /* Fixed width for all cards */
+    width: 350px; /* Fixed width for all cards */
+    height: 170px;
     justify-content: center;
+    text-align: center;
     align-items: center;
     align-self: center;
-    display: absolute;
-    flex-wrap: wrap; /* Wrap cards to the next row if needed */
-    gap: 20px; /* Space between the cards */
+    gap: 20px; /* Space between elements inside the card */
     transition: transform 0.3s ease;
 }
-
 
