@@ -137,13 +137,6 @@ a {
     align-items: center;
 }
 
-.story-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* Space between the cards */
-    flex-wrap: wrap; /* Wrap cards to the next row if needed */
-}
-
 .story-card1, .story-card2, .story-card3 {
     background: linear-gradient(135deg, #068c5a, #034f35);
     border-radius: 10px;
@@ -151,5 +144,13 @@ a {
     padding: 20px;
     margin: 10px;
     width: 300px; /* Fixed width for all cards */
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    display: absolute;
+    flex-wrap: wrap; /* Wrap cards to the next row if needed */
+    gap: 20px; /* Space between the cards */
     transition: transform 0.3s ease;
 }
+
+
