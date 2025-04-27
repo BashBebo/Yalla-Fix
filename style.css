@@ -154,3 +154,8 @@ a {
     transition: transform 0.3s ease;
 }
 
+.story-card1:hover, .story-card2:hover, .story-card3:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5); /* Deeper shadow on hover */
+    background: linear-gradient(135deg, #389466, #076930);
+}
