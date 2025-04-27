@@ -13,12 +13,12 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(160deg, #cdecce, #9ec57c); 
+    background: linear-gradient(170deg, #aacfac, #64b65d); 
     min-height: 100vh;
 }
 
 header {
-    background-color: rgb(59, 201, 59); /* Green header */
+    background-color: rgb(74, 190, 74); /* Green header */
     color: rgb(0, 0, 0);
     width: 100vw; /* Make sure it spans the full width */
     padding: 1% 2rem; /* Top/bottom padding increased to 2% */
@@ -144,7 +144,7 @@ a {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
     padding: 20px;
     margin: 10px;
-    width: 350px; /* Fixed width for all cards */
+    width: 300px; /* Fixed width for all cards */
     height: 170px;
     justify-content: center;
     text-align: center;
