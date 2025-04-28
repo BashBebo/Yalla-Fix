@@ -90,12 +90,14 @@ a {
     padding: 2rem;
     text-align: center;
     justify-content: center;
+    align-items: center; /* Ensure content is vertically aligned */
     align-self: center;
     box-shadow: 0 6px 13px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
-    width: 430px;
+    width: 390px; /* Fixed width for consistency */
+    height: 120px; /* Fixed height for consistency */
     margin: 10px; /* Add margin to create spacing between cards */
-    flex-wrap: nowrap;
+    flex-wrap: nowrap; /* Prevent wrapping */
 }
 
 
@@ -140,7 +142,6 @@ a {
     justify-content: center;
     align-items: center;
 }
-
 .story-card1, .story-card2, .story-card3 {
     display: inline-flex; /* Make the cards inline and flexible */
     background: linear-gradient(135deg, #48c586, #02632b);
