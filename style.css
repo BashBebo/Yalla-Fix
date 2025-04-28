@@ -81,18 +81,21 @@ a {
     color: black;
 }
 
-.Mission-Header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.Mission-Text {
-    max-width: 800px; /* Adjust this value to control the width */
-    margin: 0 auto; /* This centers the container */
-    padding: 20px;
-    text-align: center; /* Center-aligns the text */
-    line-height: 1.6; /* Improves readability */
+.mission-card1, .mission-card2, .mission-card3 {
+    display: inline-flex; /* Make the cards inline and flexible */
+    background: linear-gradient(135deg, #43af79, #086d32);
+    border-radius: 13px;
+    gap: 15px;
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    box-shadow: 0 6px 13px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    width: 430px;
+    margin: 10px; /* Add margin to create spacing between cards */
+    flex-wrap: wrap; /* Allow wrapping if needed */
 }
 
 .CTA-Button1 {
@@ -152,10 +155,14 @@ a {
     align-self: center;
     gap: 20px; /* Space between elements inside the card */
     transition: transform 0.3s ease;
+    animation-name: endlesslefttoright;
 }
 
 .story-card1:hover, .story-card2:hover, .story-card3:hover {
     transform: scale(1.05); /* Slightly enlarge the card on hover */
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5); /* Deeper shadow on hover */
     background: linear-gradient(135deg, #389466, #076930);
+}
+
+@keyframes endlesslefttoright{
 }
