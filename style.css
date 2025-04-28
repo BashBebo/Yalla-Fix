@@ -81,7 +81,6 @@ a {
     color: black;
 }
 
-
 .mission-card1, .mission-card2, .mission-card3 {
     display: inline-flex; /* Make the cards inline and flexible */
     background: linear-gradient(135deg, #43af79, #086d32);
@@ -98,7 +97,20 @@ a {
     height: 120px; /* Fixed height for consistency */
     margin: 10px; /* Add margin to create spacing between cards */
     flex-wrap: nowrap; /* Prevent wrapping */
-    animation: cominginhot 1.5s ease-out; /* Apply animation */
+    animation: cominginhot 1.5s ease-out;
+    animation-fill-mode: both; /* Ensure the animation stays in its final state */
+}
+
+.mission-card1 {
+    animation-delay: 0s; /* No delay for the first card */
+}
+
+.mission-card2 {
+    animation-delay: 0.6s; /* Increased delay for the second card */
+}
+
+.mission-card3 {
+    animation-delay: 1.2s; /* Increased delay for the third card */
 }
 
 @keyframes cominginhot {
@@ -108,6 +120,23 @@ a {
     }
     100% {
         transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.mission-card-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    animation: fadein 1s ease-in;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
         opacity: 1;
     }
 }
