@@ -95,8 +95,9 @@ a {
     transition: transform 0.3s ease;
     width: 430px;
     margin: 10px; /* Add margin to create spacing between cards */
-    flex-wrap: wrap; /* Allow wrapping if needed */
+    flex-wrap: nowrap;
 }
+
 
 .CTA-Button1 {
     display: flex;
