@@ -98,6 +98,18 @@ a {
     height: 120px; /* Fixed height for consistency */
     margin: 10px; /* Add margin to create spacing between cards */
     flex-wrap: nowrap; /* Prevent wrapping */
+    animation: cominginhot 1.5s ease-out; /* Apply animation */
+}
+
+@keyframes cominginhot {
+    0% {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 
