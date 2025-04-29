@@ -1,3 +1,9 @@
+html {
+    scroll-behavior: smooth; /* Smooth scrolling */
+    
+}
+
+
 main {
     margin-top: 100px; /* or however tall your header is */
 }
@@ -125,12 +131,23 @@ a {
 }
 
 
-.mission-card-text {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #ffffff;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    animation: fadein 1s ease-in;
+.mission-header {
+    animation: fadein 1.2s ease-in;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.success-stories {
+    position: relative;
+    margin: 20px 0;
+    padding: 10px;
 }
 
 
