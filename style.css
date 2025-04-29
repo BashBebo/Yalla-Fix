@@ -91,7 +91,7 @@ a {
     justify-content: center;
     align-items: center; /* Ensure content is vertically aligned */
     align-self: center;
-    box-shadow: 0 6px 13px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 11px 13px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
     width: 390px; /* Fixed width for consistency */
     height: 120px; /* Fixed height for consistency */
@@ -122,6 +122,12 @@ a {
         transform: translateY(0);
         opacity: 1;
     }
+}
+
+.mission-card1, .mission-card2, .mission-card3:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5); /* Deeper shadow on hover */
+    background: linear-gradient(135deg, #3a9f6b, #065c2e);
 }
 
 .mission-card-text {
