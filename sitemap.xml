@@ -3,10 +3,8 @@
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator https://sitemap-generator.org/ -->
   <url>
-   <loc>https://bashbebo.github.io/YallaFix/</loc>
-   <lastmod>2025-04-30T15:24:58.693Z</lastmod>
-   <priority>1.00</priority>
- </url>
+    <loc>https://bashbebo.github.io/YallaFix/</loc>
+    <lastmod>2024-05-25</lastmod>
+  </url>
 </urlset>
